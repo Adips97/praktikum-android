@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ADI PURNOMO SIDIK_1202154134_Modul1</string>
+    <string name="judul11">Makan Malam</string>
+    <string name="judul12">dengan Milea</string>
+    <string name="menu_makanan">Masukan menu makanan</string>
+    <string name="jumlah_porsi">Masukan jumlah pesanan</string>
+    <string name="button_eatbus">EATBUS</string>
+    <string name="button_abnormal">ABNORMAL</string>
+    <string name="tempatMakan">tempat</string>
+    <string name="menu2">nama menu</string>
+    <string name="porsi2">jumlah porsi</string>
+    <string name="harga2">total harga</string>
+</resources>

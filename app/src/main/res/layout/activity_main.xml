@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.adipurnomosidik_1202154134_modul1.MainActivity">
+
+    <TextView
+        android:id="@+id/judul1"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:baselineAligned="false"
+        android:text="@string/judul11"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/judul12"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/menuMakanan"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul2"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:hint="@string/menu_makanan"
+        android:padding="16dp"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/jumlah_porsi"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menuMakanan"
+        android:layout_gravity="center"
+        android:hint="@string/jumlah_porsi"
+        android:padding="16dp"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/eatbus"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jumlah_porsi"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorAccent"
+            android:onClick="eatbus"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/button_eatbus"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/abnormal"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button"
+            android:background="@color/colorAccent"
+            android:onClick="abnormal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/button_abnormal"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
